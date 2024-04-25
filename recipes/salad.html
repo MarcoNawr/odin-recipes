@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe of Salad</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <a href="../index.html">home</a>
+    <a class="breadcrumb" href="../index.html">home</a>
     <h1>Recipe of Salad</h1>
-    <img src="../img/salad_1920_1280.jpg" alt="Salad" width="640" height="427">
-    <h2>Description</h2>
-    <p>A <strong>light salad</strong>. Just the right thing for hot days.</p>
-    <p>But you can enjoy the salad at any time of year</p>
-    <h2>Ingredients</h2>
-    <ul>
-        <li>200 g Salad</li>
-        <li>100 g Tomato</li>
-        <li>100 g Cucumber</li>
-        <li>1 Onion</li>
-        <li>50 g Shepherd's cheese</li>
-    </ul>
-    <h2>Steps</h2>
-    <ol>
-        <li>Clean all Ingredients</li>
-        <li>Cut all Ingredients into small pieces</li>
-        <li>Put all cutted Ingredients togehter</li>
-        <li>Add salt and pepper to your preference</li>
-    </ol>
+    <div class="receiptCard">
+        <img class="receiptCard__img" src="../img/salad_1920_1280.jpg" alt="Salad" width="640" height="427">
+        <h2 class="receiptCard__headline1">Description</h2>
+        <p class="receiptCard__text">A <strong>light salad</strong>. Just the right thing for hot days.</p>
+        <p class="receiptCard__text">But you can enjoy the salad at any time of year</p>
+        <h2 class="receiptCard__headline1">Ingredients</h2>
+        <ul class="receiptCard__ingredients">
+            <li class="receiptCard__ingredients_ingredient">200 g Salad</li>
+            <li class="receiptCard__ingredients_ingredient">100 g Tomato</li>
+            <li class="receiptCard__ingredients_ingredient">100 g Cucumber</li>
+            <li class="receiptCard__ingredients_ingredient">1 Onion</li>
+            <li class="receiptCard__ingredients_ingredient">50 g Shepherd's cheese</li>
+        </ul>
+        <h2 class="receiptCard__headline1">Steps</h2>
+        <ol class="receiptCard__steps">
+            <li class="receiptCard__steps__step">Clean all Ingredients</li>
+            <li class="receiptCard__steps__step">Cut all Ingredients into small pieces</li>
+            <li class="receiptCard__steps__step">Put all cutted Ingredients togehter</li>
+            <li class="receiptCard__steps__step">Add salt and pepper to your preference</li>
+        </ol>
+    </div>
 </body>
 </html>

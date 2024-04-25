@@ -1,0 +1,76 @@
+
+/* ################
+    Global
+################ */ 
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+h1{
+    font-size: 4em;
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+    background-color: #D81E5B;
+    color: white;
+}
+
+/* ################
+    breadcrumb
+################ */ 
+
+.breadcrumb {
+    background-color: rgb(255, 255, 255);
+}
+
+/* ################
+    Menue
+################ */ 
+
+.menueCard {
+    font-size: 1.5em;
+    background-color: #EBF2FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+     /* WARUM geht das nicht <tbd>
+      &__receiptlink {
+        padding: 1em;
+        color: red;
+    } */
+}
+
+.menueCard__receiptlink{
+    padding: 1em;
+}
+
+
+/* ################
+    Receipt
+################ */ 
+.receiptCard{
+    background-color: white;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.receiptCard__img{
+    border: solid black 0.3em;
+}
+.receiptCard__headline1{
+    font-weight:bolder;
+    text-decoration: underline;
+
+}
+.receiptCard__headline2{
+  font-style: italic;
+
+}
