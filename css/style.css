@@ -1,18 +1,20 @@
-
 /* ################
     Global
 ################ */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
-    margin: 0;
 }
 
 h1{
     font-size: 4em;
     padding: 1em;
-    margin: 0;
     text-align: center;
     background-color: #D81E5B;
     color: white;
@@ -53,6 +55,16 @@ h1{
 /* ################
     Receipt
 ################ */ 
+
+/* cascading hint: class selector (.<name>) beats type selector (h1) */
+.receiptPageHeadline{
+    font-size: 2em;
+    padding: 0.5em;
+    text-align: center;
+    background-color: #D81E5B;
+    color: rgb(255, 255, 255);
+}
+
 .receiptCard{
     background-color: white;
     padding: 2em;
@@ -60,6 +72,15 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+/* margin for all Elements*/
+.receiptCard__img,
+ .receiptCard__headline1,
+  .receiptCard__headline2,
+   .receiptCard__text,
+    .receiptCard__ingredients,
+     .receiptCard__steps{
+    margin-bottom: 2rem;
 }
 
 .receiptCard__img{
