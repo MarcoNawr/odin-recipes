@@ -66,12 +66,20 @@ h1{
 }
 
 .receiptCard{
-    background-color: white;
+    
     padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    /*CSS to looks like an card*/
+    background-color: #8B9CD6;
+    color: white;
+    width: 50%;
+    margin: 30px auto;
+    /* border: 0.2em solid black; */
+    border-radius: 1em;
 }
 /* margin for all Elements*/
 .receiptCard__img,
@@ -82,9 +90,24 @@ h1{
      .receiptCard__steps{
     margin-bottom: 2rem;
 }
+.receiptCard__textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    width: 100%;
+    height: auto;
+    background-color: #A2B1E3;
+    color: black;
+    padding: 20px;
+    border-radius: 0.3em;
+}
 .receiptCard__img{
-    border: solid black 0.3em;
+    /* border: solid black 0.1em; */
+    border-radius: 0.3em;
+    width: 100%;
+    height: auto;
 }
 .receiptCard__headline1{
     font-weight:bolder;
