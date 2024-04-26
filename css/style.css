@@ -31,6 +31,16 @@ h1{
 /* ################
     Menue
 ################ */ 
+.menueimgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menueimgContainer__img{
+  padding: 10px;
+  /* ACHTUNG: analysiere mit Entwicklertool und untersuche die Auswirkung auf das Boxmodel */
+  transform: rotate(5deg);
+}
 
 .menueCard {
     font-size: 1.5em;
